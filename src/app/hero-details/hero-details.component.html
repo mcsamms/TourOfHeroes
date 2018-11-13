@@ -1,0 +1,12 @@
+<!-- The div will only show when a Hero object is passed in -->
+<div *ngIf="hero">
+  <h2>{{ hero.name | uppercase }} Details</h2>
+  <div>
+    <span>ID: </span> {{hero.id}}
+  </div>
+  <div>
+    <label>Name: <input [(ngModel)]="hero.name" 
+      placeholder="name"></label> 
+  </div>
+  <button (click)="goBack()">Go Back</button>
+</div>
