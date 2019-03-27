@@ -43,7 +43,7 @@ export class HeroDetailsComponent implements OnInit {
    */
   getHero(): void {
     // the + forces a reassignment of a constant
-    const id = +this.route.snapshot.paramMap.get('id');
+    const id = Number(this.route.snapshot.paramMap.get('id'));
     console.log(id);
     this.heroService.getHeroAsync(id).subscribe(hero =>
         this.hero = hero
