@@ -1,5 +1,29 @@
 # AngularTourOfHeroes
 
+## Installation
+
+Install node and npm using homebrew
+
+```bash
+brew install node
+npm i angular-cli -g
+
+download zip
+extract/open folder location
+
+npm init
+ng serve --open
+
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
 ## Development server
